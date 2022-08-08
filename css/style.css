@@ -220,11 +220,23 @@ button {
   border-color: rgba(22, 148, 170, 0.911);
 }
 /* media query fon */
+
 @media (min-width: 1200px) {
   .Wrapper > div {
     height: 100%;
   }
 }
+
+@media (max-width: 375px) {
+  .background-2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 90%;
+  }
+}
+
 @media (min-width: 904px) {
   button {
     border: none;
