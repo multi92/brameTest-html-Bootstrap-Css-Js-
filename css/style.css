@@ -240,7 +240,7 @@ button {
 @media (max-width: 1440px) {
   .introductionButton {
     border: none;
-    margin: 60px;
+    margin: 50px;
     color: #fff;
     display: block;
     width: 30%;
