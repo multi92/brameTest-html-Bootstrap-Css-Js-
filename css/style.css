@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
-
 /* Basic */
 
 * {
@@ -68,19 +67,31 @@ p {
   margin: auto;
   color: #000;
   font-size: 1rem;
-  word-spacing: 2px;  
+  word-spacing: 2px;
 }
 .form {
-	margin: 5px;
-	text-align: center;
-	
+  margin: 5px;
+  text-align: center;
 }
 
 .form input {
-	margin: 5px;
-	padding: 5px;
-	border: 2px solid rgba(22, 148, 170, 0.911);
-	
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid rgba(22, 148, 170, 0.911);
+}
+
+div .checkbox {
+  height: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+label {
+  font-size: 0.7rem;
+  display: inline-block;
+  margin-bottom: 0.5rem;
 }
 
 img.introPage {
@@ -104,7 +115,7 @@ button {
 }
 
 /***** SocMedia *****/
-.socMedia{
+.socMedia {
   margin-top: 10vh;
   text-align: center;
 }
@@ -132,12 +143,11 @@ button {
   text-decoration: none;
 }
 
-
 /***** End SocMedia *****/
 
 /***** Arrows *****/
 .arrow {
-  border: solid  rgba(22, 148, 170, 0.911);;
+  border: solid rgba(22, 148, 170, 0.911);
   border-width: 0 5px 5px 0;
   display: inline-block;
   padding: 3px;
@@ -198,7 +208,7 @@ button {
   }
 }
 @media (min-width: 904px) {
-   button {
+  button {
     border: none;
     margin: 5px;
     color: #fff;
@@ -211,57 +221,88 @@ button {
 }
 
 @media (min-width: 670px) {
-	button {
-	 border: none;
-	 margin: 5px;
-	 color: #fff;
-	 display: block;
-	 width: 30%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 background-color: rgba(22, 148, 170, 0.911);
-   }
-   
-   .swipeIcon{
-    height: 15%; width: 35%; margin-top: 30px;
-   }
- }
+  button {
+    border: none;
+    margin: 5px;
+    color: #fff;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(22, 148, 170, 0.911);
+  }
+
+  .swipeIcon {
+    height: 15%;
+    width: 35%;
+    margin-top: 30px;
+  }
+}
 /***** Iphone 12 pro *****/
 @media (min-width: 390px) {
-	button {
-  display: flex;
-	 border: none;
-	 margin: 5px;
-	 color: #fff;
-	 display: block;
-	 width: 40%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 background-color: rgba(22, 148, 170, 0.911);
-   }
-
- 
- }
+  button {
+    display: flex;
+    border: none;
+    margin: 5px;
+    color: #fff;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(22, 148, 170, 0.911);
+  }
+}
 
 /***** End Iphone 12 pro *****/
 
- @media (min-width: 375px) {
-	button {
-  display: flex;
-	 border: none;
-	 margin: 5px;
-	 color: #fff;
-	 display: block;
-	 width: 40%;
-	 margin-left: auto;
-	 margin-right: auto;
-	 background-color: rgba(22, 148, 170, 0.911);
-   }
+@media (min-width: 375px) {
+  button {
+    display: flex;
+    border: none;
+    margin: 5px;
+    color: #fff;
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(22, 148, 170, 0.911);
+  }
+}
 
-   
- }
+/* mediaQuery registration iphone 12Pro */
+@media (max-width: 375px) {
+  img.introPage {
+    height: 18%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 10px;
+    border-color: #fff;
+  }
+}
+@media (max-width: 768px) {
+  img.introPage {
+    height: 18%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 10px;
+    border-color: #fff;
+  }
 
- /* media query fon end */
+  .form input {
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid rgba(22, 148, 170, 0.911);
+}
+}
+
+/* mediaQuery registration iphone 12Pro end */
+
+/* media query fon end */
 
 .logoIcon {
   padding: 20px;
