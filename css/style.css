@@ -1,0 +1,290 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+
+/* Basic */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+.Container {
+  height: 100%;
+  font-family: "Poppins";
+}
+
+body {
+  background-color: #e9e8e6;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+a:link,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:link.white,
+a:hover.white,
+a:visited.white {
+  text-decoration: none;
+  color: #fff;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  text-align: center;
+  padding-top: 30px;
+  color: #000;
+  font-size: 0.8rem;
+  word-spacing: 2px;
+}
+
+.privacy {
+  display: block;
+  text-align: center;
+  margin: auto;
+  color: #000;
+  font-size: 1rem;
+  word-spacing: 2px;  
+}
+.form {
+	margin: 5px;
+	text-align: center;
+	
+}
+
+.form input {
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid rgba(22, 148, 170, 0.911);
+	
+}
+
+img.introPage {
+  height: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid 10px;
+  border-color: #fff;
+}
+button {
+  border: none;
+  margin: 5px;
+  color: #fff;
+  display: block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(22, 148, 170, 0.911);
+}
+
+/***** SocMedia *****/
+.socMedia{
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.9;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.fa-pinterest {
+  color: white;
+}
+
+.fa-reddit {
+  color: white;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 60px;
+  text-decoration: none;
+}
+
+
+/***** End SocMedia *****/
+
+/***** Arrows *****/
+.arrow {
+  border: solid  rgba(22, 148, 170, 0.911);;
+  border-width: 0 5px 5px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+/***** End Arrows *****/
+
+.min-100 {
+  min-height: 100%;
+}
+
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.Content {
+  position: static;
+  z-index: 1;
+}
+
+.Wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background-color: #e9e8e6;
+}
+
+.LeftContent {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.RightContent {
+  background-color: #eaeff2;
+  opacity: 0.9;
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+/* media query fon */
+@media (min-width: 1200px) {
+  .Wrapper > div {
+    height: 100%;
+  }
+}
+@media (min-width: 904px) {
+   button {
+    border: none;
+    margin: 5px;
+    color: #fff;
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(22, 148, 170, 0.911);
+  }
+}
+
+@media (min-width: 670px) {
+	button {
+	 border: none;
+	 margin: 5px;
+	 color: #fff;
+	 display: block;
+	 width: 30%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 background-color: rgba(22, 148, 170, 0.911);
+   }
+   
+   .swipeIcon{
+    height: 15%; width: 35%; margin-top: 30px;
+   }
+ }
+/***** Iphone 12 pro *****/
+@media (min-width: 390px) {
+	button {
+  display: flex;
+	 border: none;
+	 margin: 5px;
+	 color: #fff;
+	 display: block;
+	 width: 40%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 background-color: rgba(22, 148, 170, 0.911);
+   }
+
+ 
+ }
+
+/***** End Iphone 12 pro *****/
+
+ @media (min-width: 375px) {
+	button {
+  display: flex;
+	 border: none;
+	 margin: 5px;
+	 color: #fff;
+	 display: block;
+	 width: 40%;
+	 margin-left: auto;
+	 margin-right: auto;
+	 background-color: rgba(22, 148, 170, 0.911);
+   }
+
+   
+ }
+
+ /* media query fon end */
+
+.logoIcon {
+  padding: 20px;
+  width: 100%;
+  height: 14%;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.background-1 {
+  background-image: url("../assets/background-desktop.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.background-2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
