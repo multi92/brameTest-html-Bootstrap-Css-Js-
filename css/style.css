@@ -75,9 +75,9 @@ p {
 }
 
 .form input {
-  margin: 5px;
-  padding: 5px;
-  border: 2px solid rgba(22, 148, 170, 0.911);
+  margin: 2px;
+  padding: 1px;
+  border: 1px solid rgba(22, 148, 170, 0.911);
 }
 
 div .checkbox {
@@ -85,7 +85,7 @@ div .checkbox {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
+  width: 70%;
 }
 
 label {
@@ -95,7 +95,7 @@ label {
 }
 
 img.introPage {
-  height: 40%;
+  height: 35%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -109,6 +109,18 @@ button {
   color: #fff;
   display: block;
   width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(22, 148, 170, 0.911);
+}
+
+.submitButton {
+  display: flex;
+  border: none;
+  margin: 5px;
+  color: #fff;
+  display: block;
+  width: 20%;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(22, 148, 170, 0.911);
@@ -254,7 +266,7 @@ button {
   .privacy {
     display: block;
     text-align: center;
-    margin-top: 47%;
+    /* margin-top: 19%; */
     color: #000;
     font-size: 1rem;
     word-spacing: 2px;
