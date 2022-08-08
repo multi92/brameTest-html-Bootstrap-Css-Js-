@@ -237,10 +237,10 @@ button {
   }
 }
 
-@media (min-width: 904px) {
-  button {
+@media (max-width: 1440px) {
+  .introductionButton {
     border: none;
-    margin: 5px;
+    margin: 60px;
     color: #fff;
     display: block;
     width: 30%;
