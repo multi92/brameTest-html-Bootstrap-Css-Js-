@@ -250,6 +250,17 @@ button {
   }
 }
 
+@media (max-width: 768px) {
+  .privacy {
+    display: block;
+    text-align: center;
+    margin-top: 47%;
+    color: #000;
+    font-size: 1rem;
+    word-spacing: 2px;
+  }
+}
+
 @media (min-width: 670px) {
   button {
     border: none;
