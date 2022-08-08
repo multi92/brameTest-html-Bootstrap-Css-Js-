@@ -201,6 +201,24 @@ button {
   margin: 0;
   padding: 0;
 }
+
+.container-fluid {
+  width: 100%;
+  height: 73%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-fluid img {
+  height: 40%;
+  display: block;
+  margin: 15px;
+  width: 21%;
+  border: solid 2px;
+  border-color: rgba(22, 148, 170, 0.911);
+}
 /* media query fon */
 @media (min-width: 1200px) {
   .Wrapper > div {
@@ -297,7 +315,7 @@ button {
     margin: 5px;
     padding: 5px;
     border: 2px solid rgba(22, 148, 170, 0.911);
-}
+  }
 }
 
 /* mediaQuery registration iphone 12Pro end */
