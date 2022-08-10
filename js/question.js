@@ -11,5 +11,7 @@ let questions = [
         "Hyper Tool Multi Language.",
       ],
     },
+
+    //we can put many objects like this
   ];
   

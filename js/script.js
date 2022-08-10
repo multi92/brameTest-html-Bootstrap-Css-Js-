@@ -11,7 +11,6 @@ const buttonIntr = document.querySelector(".introductionButton");
 //   showQuestions(0);
 // };
 
-
 //getting questions and options from array
 
 let que_count = 0;
@@ -21,15 +20,15 @@ function showQuestions(index) {
   const option_list = document.querySelector(".option_list");
   let que_tag = "<span>" + questions[index].question + "</span>";
   let option_tag =
-    //
+    //1-options
     '<div class="option">' +
     questions[index].options[0] +
     "<span></span></div>";
-  //
+  //2-options
   '<div class="option">' + questions[index].options[1] + "<span></span></div>";
-  //
+  //3-options
   '<div class="option">' + questions[index].options[2] + "<span></span></div>";
-  //
+  //4-options
   '<div class="option">' + questions[index].options[3] + "<span></span></div>";
 
   que_text.innerHTML = que_tag;
