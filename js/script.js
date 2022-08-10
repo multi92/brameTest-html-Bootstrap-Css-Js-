@@ -1,11 +1,17 @@
+//window onload
+window.onload = function () {
+  showQuestions();
+};
 //getting all required elements
 const buttonIntr = document.querySelector(".introductionButton");
 
 //If start Button Clicked
-buttonIntr.onclick = () => {
-  //because in question.js we have only one questions object, we must put zero(0) in showQuestions function
-  showQuestions(0);
-};
+// buttonIntr.onclick = () => {
+//   //because in question.js we have only one questions object, we must put zero(0) in showQuestions function
+//   showQuestions(0);
+// };
+
+
 //getting questions and options from array
 
 let que_count = 0;
