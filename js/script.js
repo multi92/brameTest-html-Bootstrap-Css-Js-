@@ -1,9 +1,9 @@
 //window onload
 window.onload = function () {
-  showQuestions();
+  showQuestions(0);
 };
 //getting all required elements
-const buttonIntr = document.querySelector(".introductionButton");
+// const buttonIntr = document.querySelector(".introductionButton");
 
 //If start Button Clicked
 // buttonIntr.onclick = () => {
@@ -18,18 +18,16 @@ let que_count = 0;
 function showQuestions(index) {
   const que_text = document.querySelector(".que_text");
   const option_list = document.querySelector(".option_list");
-  let que_tag = "<span>" + questions[index].question + "</span>";
-  let option_tag =
-    //1-options
-    '<div class="option">' +
-    questions[index].options[0] +
-    "<span></span></div>";
-  //2-options
-  '<div class="option">' + questions[index].options[1] + "<span></span></div>";
-  //3-options
-  '<div class="option">' + questions[index].options[2] + "<span></span></div>";
-  //4-options
-  '<div class="option">' + questions[index].options[3] + "<span></span></div>";
+  let que_tag = "<p><span>" + questions[index].question + "</span></p>";
+  let option_tag = `
+    
+    <div class="option">${questions[index].options[0]} <span></span></div>
+  
+  <div class="option"> ${questions[index].options[1]}<span></span></div>
+  
+  <div class="option">${questions[index].options[2]}<span></span></div>
+  
+  <div class="option">${questions[index].options[3]}<span></span></div>`;
 
   que_text.innerHTML = que_tag;
   option_list.innerHTML = option_tag;
