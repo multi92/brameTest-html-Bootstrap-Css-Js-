@@ -18,7 +18,7 @@ let que_count = 0;
 function showQuestions(index) {
   const que_text = document.querySelector(".que_text");
   const option_list = document.querySelector(".option_list");
-  let que_tag = "<p><span>" + questions[index].question + "</span></p>";
+  let que_tag = "<p>" + `${questions[index].question}` + "</p>";
   let option_tag = `
     
     <div class="option">${questions[index].options[0]} <span></span></div>
