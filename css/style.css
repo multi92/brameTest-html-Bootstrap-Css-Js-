@@ -103,16 +103,16 @@ img.introPage {
   border: solid 10px;
   border-color: #fff;
 }
-/* button {
+.nextButton {
   border: none;
   margin: 5px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   display: block;
   width: 15%;
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(22, 148, 170, 0.911);
-} */
+}
 
 /* .submitButton {
   display: flex;
@@ -147,15 +147,15 @@ img.introPage {
 }
 
 .option .icon.tick {
+  display: contents;
   color: #2cd454;
   background-color: white;
- 
 }
 
 .option .icon.cross {
   color: #f01708;
+  display: contents;
   background-color: white;
- 
 }
 
 .option:hover {
@@ -292,6 +292,38 @@ span {
   }
 }
 
+@media (min-width: 375px) {
+  .option_list {
+    display: inline-block;
+    border: 2px solid white;
+    color: #fff;
+    width: 80%;
+    height: 140px;
+    margin: 5px;
+    margin-left: 10%;
+    margin-right: auto;
+    background: rgba(22, 148, 170, 0.911);
+    align-items: center;
+    transition: all 0.4s ease;
+  }
+
+  @media (min-width: 1024px) {
+    .option_list {
+      display: inline-block;
+      border: 2px solid white;
+      color: #fff;
+      width: 60%;
+      height: 140px;
+      margin: 5px;
+      margin-left: 20%;
+      margin-right: auto;
+      background: rgba(22, 148, 170, 0.911);
+      align-items: center;
+      transition: all 0.4s ease;
+    }
+  }
+}
+
 @media (max-width: 1440px) {
   .introductionButton {
     border: none;
@@ -408,6 +440,7 @@ span {
 }
 
 h2 {
+  height: 0%;
   text-align: center;
 }
 
