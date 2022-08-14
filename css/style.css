@@ -356,6 +356,17 @@ span {
     margin: 20px 0;
   }
 }
+@media (min-width: 831px) {
+  img.introPage {
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: solid 10px;
+    border-color: #fff;
+  }
+}
 
 @media (max-width: 375px) {
   .background-2 {
