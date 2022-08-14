@@ -82,5 +82,5 @@ function optionSelected(answer) {
   let correctAns = questions[que_count].answer;
   if (userAns == correctAns) {
     console.log("Answer is Correct");
-  } else "Answer is Wrong";
+  } else console.log("Answer is Wrong");
 }
