@@ -54,6 +54,7 @@ body {
 .btn-grid {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  /* spacing */
   gap: 10px;
   margin: 20px 0;
 }
