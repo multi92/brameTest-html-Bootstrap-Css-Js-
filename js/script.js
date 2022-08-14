@@ -2,6 +2,7 @@
 window.onload = function () {
   showQuestions(0);
 };
+
 //getting all required elements
 // const buttonIntr = document.querySelector(".introductionButton");
 
@@ -17,7 +18,8 @@ let que_count = 0;
 let que_numb = 1;
 //getting the button next
 const nextButton = document.querySelector(".nextButton");
-//if nextButton clicked
+
+//IF NEXT BUTTON CLICKED
 nextButton.onclick = () => {
   if (que_count < questions.length - 1) {
     que_count++;
@@ -63,7 +65,7 @@ function showQuestions(index) {
   }
 }
 
-//qounter question
+//counter question
 
 function queCounter(index) {
   const queCounter = document.querySelector(".queCounter");
