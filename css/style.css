@@ -42,21 +42,16 @@ body {
 
 .btn {
   --hue: var(--hue-neutral);
-  border: 1px solid hsl(var(--hue), 100%, 30%);
   background-color: hsl(var(--hue), 100%, 50%);
   border-radius: 5px;
-  padding: 5px 10px;
   color: white;
   outline: none;
   width: 80%;
+  margin-left: 10%;
 }
 
-.btn-grid {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  /* spacing */
-  gap: 10px;
-  margin: 20px 0;
+#answer-buttons {
+  display: inline;
 }
 
 .btn:hover {
@@ -116,15 +111,13 @@ p {
   text-align: center;
   padding-top: 0px;
   color: #000;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   word-spacing: 2px;
-  margin-top: 0;
-  margin-bottom: 0rem;
 }
 
 .privacy {
   display: block;
-  bottom: 30px;
+  bottom: 0px;
   position: absolute;
   width: 100%;
   text-align: center;
@@ -138,17 +131,9 @@ p {
 }
 
 .form input {
-  margin: 2px;
+  margin: 3px;
   padding: 1px;
   border: 1px solid rgba(22, 148, 170, 0.911);
-}
-
-div .checkbox {
-  height: 5%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
 }
 
 label {
@@ -158,7 +143,7 @@ label {
 }
 
 img.introPage {
-  height: 35%;
+  height: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -173,7 +158,7 @@ img.introPage {
   padding: 10px 20px;
 }
 
-/* .submitButton {
+.submitButton {
   display: flex;
   border: none;
   margin: 5px;
@@ -183,7 +168,7 @@ img.introPage {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(22, 148, 170, 0.911);
-} */
+}
 
 /* buttonQuiz */
 .option_list {
@@ -330,15 +315,41 @@ span {
   height: 40%;
   display: block;
   margin: 15px;
-  width: 21%;
+  width: 20%;
   border: solid 2px;
   border-color: rgba(22, 148, 170, 0.911);
 }
+
+@media (max-width: 320px) {
+  .container-fluid img {
+    height: 40%;
+    display: block;
+    margin: 15px;
+    width: 36%;
+    border: solid 2px;
+    border-color: rgba(22, 148, 170, 0.911);
+  }
+}
+
 /* media query fon */
 
 @media (min-width: 1200px) {
   .Wrapper > div {
     height: 100%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .submitButton {
+    display: flex;
+    border: none;
+    margin: 8%;
+    color: #fff;
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(22, 148, 170, 0.911);
   }
 }
 
@@ -517,6 +528,25 @@ span {
   }
 }
 
+@media (min-width: 320px) {
+  div .checkbox {
+    height: 5%;
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: auto;
+    width: -1%;
+  }
+}
+
+@media (max-width: 320px) {
+  .form input {
+    width: 78%;
+    margin: 1px;
+    padding: 0px;
+    border: 2px solid rgba(22, 148, 170, 0.911);
+  }
+}
+
 /* mediaQuery registration iphone 12Pro end */
 
 /* media query fon end */
@@ -524,13 +554,16 @@ span {
 .logoIcon {
   padding: 17px;
   width: 100%;
-  height: 0%;
+  height: 10%;
   text-align: center;
 }
 
 h2 {
-  height: 0%;
   text-align: center;
+  font-size: 1.3rem;
+  font-style: normal;
+  font-weight: bold;
+  margin: 10px;
 }
 
 .background-1 {
