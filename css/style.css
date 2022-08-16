@@ -412,7 +412,7 @@ span {
     border-color: #fff;
   }
 
-  .background-2 .privacy  {
+  .background-2 .privacy {
     display: inline;
     text-align: center;
     margin-top: 19%;
@@ -568,12 +568,13 @@ span {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .form input {
-    width: 78%;
-    margin: 1px;
-    padding: 0px;
-    border: 2px solid rgba(22, 148, 170, 0.911);
+    width: 97%;
+    /* margin: 5px; */
+    /* padding: 5px; */
+    /* border: 2px solid rgba(22, 148, 170, 0.911); */
+    height: 18px;
   }
 }
 
