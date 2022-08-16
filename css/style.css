@@ -320,7 +320,7 @@ span {
   border-color: rgba(22, 148, 170, 0.911);
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .container-fluid img {
     height: 40%;
     display: block;
