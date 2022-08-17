@@ -40,6 +40,56 @@ body {
   background-color: #e9e8e6;
 }
 
+/* css for section card */
+.section {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+}
+
+.memory-game {
+  width: 100%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  position: absolute;
+  border-radius: 5px;
+  background: #1c7ccc;
+}
+
+.buttonNextGame {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+}
+/* css for section card end */
+
 .btn {
   --hue: var(--hue-neutral);
   background-color: hsl(var(--hue), 100%, 50%);
@@ -302,7 +352,7 @@ span {
   padding: 0;
 }
 
-.container-fluid {
+/* .container-fluid {
   width: 100%;
   height: 73%;
   padding-right: 15px;
@@ -329,7 +379,7 @@ span {
     border: solid 2px;
     border-color: rgba(22, 148, 170, 0.911);
   }
-}
+} */
 
 /* media query fon */
 
