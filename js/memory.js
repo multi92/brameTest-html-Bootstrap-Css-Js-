@@ -3,7 +3,7 @@ const countdownEl = document.getElementById("countdown");
 //when player click card(if first card or second)
 
 ///COUNTDOWN FUNCTION
-const startingMinutes = 0.3;
+const startingMinutes = 0.4;
 let time = startingMinutes * 60;
 
 setInterval(updateCountdown, 300);
